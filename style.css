@@ -1,0 +1,154 @@
+.bt1{
+    border: 5px solid skyblue;
+    text-align: center;
+    margin: 5px;
+}
+.bt2{
+    border: 5px solid skyblue;
+    text-align: center;
+    margin: 5px;
+}
+.bt3{
+    border: 5px solid skyblue;
+    text-align: center;
+    margin: 5px;
+}
+.bt4{
+    border: 5px solid skyblue;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.layout{
+    border: 3px solid black;
+    width: 800px;
+    height: 900px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+.add{
+    /* border: 3px solid black; */
+    width: 750px;
+    height: 50px;
+    text-align: center;
+    margin: 40px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#nhapten{
+    background-color: rgb(236, 237, 238);
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid rgb(193, 195, 196);
+    border-radius: 10px;
+}
+#nhapsodt{
+    background-color: rgb(236, 237, 238);
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(193, 195, 196);
+
+
+}
+::placeholder{
+    text-align: start;
+    font-size: larger;
+}
+#them{
+    background-color: rgb(58, 58, 174);
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(201, 201, 198);
+    font-size: large;
+    color: white;
+}
+.gach{
+    width: 700px;
+    height: 0px;
+    border: 1px solid grey;
+    margin: 10px 10px 30px 50px ;
+}
+.timkiem{
+    width: 750px;
+    height: 50px;
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#nhaptim{
+    background-color: rgb(236, 237, 238);
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid rgb(193, 195, 196);
+    border-radius: 10px;
+}
+#tim{
+    background-color: rgb(58, 58, 174);
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(201, 201, 198);
+    font-size: large;
+    color: white;
+}
+#xoa{
+    background-color: rgb(58, 58, 174);
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(201, 201, 198);
+    font-size: large;
+    color: white;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#taoban{
+    width: 750px;
+    height: 50px;
+    margin: 20px;
+    border: 2px solid rgb(197, 194, 194);
+    border-radius: 10px;
+    background-color: rgb(236, 237, 238);
+}
+.tenn{
+    text-align: start;
+    /* border-bottom: 1px solid rgb(8, 124, 241); */
+    padding: 6px 10px;
+}
+.soo{
+    text-align: end;
+    /* border-bottom: 1px solid rgb(8, 124, 241); */
+    padding: 6px 10px;
+}
+td{
+    border: 1px solid rgb(197, 194, 194);
+    border-radius: 10px;
+}
+table{
+    border-collapse:collapse;
+    border-radius: 10px;
+}
