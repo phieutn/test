@@ -24,7 +24,7 @@ function nhapMang()
     const arr1=[]
     for(i=0; i < numMang.length; i++)
     {
-        for(j=i+1; j < numMang.length-1; j++)
+        for(j=i+1; j < numMang.length+1; j++)
         {
         if(numMang[i]!=numMang[j]){
             fla = true;
