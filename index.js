@@ -22,9 +22,9 @@ function nhapMang()
     let j = 0;
     let fla = true;
     const arr1=[]
-    for(i=0; i < numMang.length; i++)
+    for(i=0; i < numMang.length - 1; i++)
     {
-        for(j=i+1; j < numMang.length + 1; j++)
+        for(j=i+1; j < numMang.length; j++)
         {
         if(numMang[i]!=numMang[j]){
             fla = true;
