@@ -38,7 +38,7 @@ function nhapMang()
             arr1.push(numMang[i]); 
           }
      }
-     document.getElementById("document-5").innerHTML = "Lọc bỏ các phần tử trùng: " + "[" + arr1 +"]";  
+     document.getElementById("document-5").innerHTML = "Lọc bbbỏ các phần tử trùng: " + "[" + arr1 +"]";  
 
 }
 // Bài tập 3
